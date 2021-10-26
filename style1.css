@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1440px;
+    min-width: 500px;
+    margin: auto;
+    position: relative;
+}
+.container {
+    width: 100%;
+    background-color: #c6d0d8;
+    position: relative;
+}
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: #0d283e;
+    margin-left: 80px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.menu-principal {
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:visited{
+    color: #4b529b;
+}
+
+.menu:hover{
+    background-color: #646cc9;
+    border-radius: 10px;
+}
+
+/* Cabecalho */
+
+.cabecalho {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: #0f293c;
+}
+.cabecalho-texto {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.cabecalho-texto h1 {
+    color: #646cc9;
+    text-align: center;
+}
+.cabecalho-texto p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+button {
+    border: none;
+}
+.cabecalho-texto button {
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    background-color: #646cc9;
+    margin: auto;
+}
+.cabecalho-texto button:hover{
+    background-color: #14364e;
+}
+.cabecalho-quadrados {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 75%;
+    text-align: center;
+}
+.quadrados {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px;
+    background-color: #646cc9;
+}
+
+/* Galeria */
+
+#galeria {
+    background-color: #c6d0d8;
+    width: 100%;
+    padding-top: 180px;
+    text-align: center;
+}
+#galeria h1 {
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-decoration-color: #646cc9;
+}
+.imagem {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.imagem img {
+    background-color: #646cc9;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 75%;
+    height: 75%;
+}
+
+/* Noticias */
+
+#noticias {
+    background-color: #c6d0d8;
+    padding-top: 100px;
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+#noticias h1{
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-decoration-color: #646cc9;
+}
+.noticia {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.noticia .img {
+    display: inline-block;
+    background-color: #646cc9;
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.noticia .img img{
+    width: 100%;
+    position: relative;
+    bottom: 120%;
+}
+.noticia .img img:hover{
+    opacity: 0.5;
+}
+.noticia p {
+    margin-top: 15px;
+}
+
+/* Contato */
+
+#contato {
+    width: 100%;
+    height: 600px;
+    background-color: #c6d0d8;
+    text-align: center;
+    position: relative;
+}
+#contato h1{
+    margin-bottom: 100px;
+    text-decoration: underline;
+    text-decoration-color: #646cc9;
+}
+.contato-completo {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contato .contato-completo h1 {
+    display: block;
+    margin-bottom: 50px;
+}
+.contato-completo img {
+    display: inline-block;
+    background-color: #646cc9;
+    border-radius: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.contato-texto {
+    display: inline-block;
+    width: 50%;
+    margin-left: 50px;
+}
+.contato-texto h2 {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.contato-texto p {
+    text-align: justify;
+}
+
+/* rodape */
+
+footer {
+    width: 100%;
+    height: 350px;
+    padding: 100px;
+    background-color: #0f293c;
+}
+.rodape {
+    text-align: center;
+}
+footer .rodape .rodape-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #646cc9;
+    border-radius: 20px;
+}
+footer .rodape p {
+    display: inline-block;
+    margin: 20px;
+}
