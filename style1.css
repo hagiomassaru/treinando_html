@@ -188,28 +188,38 @@ button {
 }
 .contato-completo {
     width: 100%;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 #contato .contato-completo h1 {
     display: block;
     margin-bottom: 50px;
 }
-.contato-completo img {
+.contato-completo .contato-img {
     display: inline-block;
     background-color: #646cc9;
+    overflow: hidden;
     border-radius: 200px;
     margin-bottom: 100px;
     margin-top: 100px;
     width: 100px;
     height: 100px;
+   
+}
+#contato .contato-completo .contato-img img{
+    position: relative;
+    top: -80%;
+    right: 50%;
+    width: 200%;
 }
 .contato-texto {
     display: inline-block;
     width: 50%;
     margin-left: 50px;
+    position: relative;
+    bottom: 110px;
 }
 .contato-texto h2 {
     text-align: left;
