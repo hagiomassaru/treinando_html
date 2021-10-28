@@ -36,15 +36,15 @@ body {
     list-style: none;
     padding: 15px;
 }
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
 }
-.menu a:visited{
+.menu a:visited {
     color: #4b529b;
 }
 
-.menu:hover{
+.menu:hover {
     background-color: #646cc9;
     border-radius: 10px;
 }
@@ -85,7 +85,7 @@ button {
     background-color: #646cc9;
     margin: auto;
 }
-.cabecalho-texto button:hover{
+.cabecalho-texto button:hover {
     background-color: #14364e;
 }
 .cabecalho-quadrados {
@@ -141,7 +141,7 @@ button {
     height: 900px;
     text-align: center;
 }
-#noticias h1{
+#noticias h1 {
     margin-bottom: 100px;
     text-decoration: underline;
     text-decoration-color: #646cc9;
@@ -157,15 +157,38 @@ button {
     background-color: #646cc9;
     width: 80%;
     height: 200px;
-    overflow: hidden;
     border-radius: 10px;
 }
-.noticia .img img{
+.noticia .back-image {
     width: 100%;
-    position: relative;
-    bottom: 120%;
+    height: inherit;
+    border-radius: inherit;
 }
-.noticia .img img:hover{
+.noticia .img #img1 {
+    background-image: url(https://images.unsplash.com/photo-1597202124081-91c34b47f94c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1944&q=80);
+    background-size: 100%;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+.noticia .img #img2 {
+    background-image: url(https://images.unsplash.com/photo-1586268290302-782ef58a11a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80);
+    background-size: 100%;
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+}
+.noticia .img #img3 {
+    background-image: url(https://images.unsplash.com/photo-1583214552082-dff0bb815203?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.noticia .img #img4 {
+    background-image: url(https://images.unsplash.com/photo-1611086211695-0628dd14e410?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
+    background-size: 110%;
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+}
+.noticia .back-image:hover {
     opacity: 0.5;
 }
 .noticia p {
@@ -181,7 +204,7 @@ button {
     text-align: center;
     position: relative;
 }
-#contato h1{
+#contato h1 {
     margin-bottom: 100px;
     text-decoration: underline;
     text-decoration-color: #646cc9;
@@ -206,9 +229,8 @@ button {
     margin-top: 100px;
     width: 100px;
     height: 100px;
-   
 }
-#contato .contato-completo .contato-img img{
+#contato .contato-completo .contato-img img {
     position: relative;
     top: -80%;
     right: 50%;
