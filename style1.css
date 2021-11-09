@@ -261,6 +261,7 @@ footer {
 }
 .rodape {
     text-align: center;
+    color: white;
 }
 footer .rodape .rodape-img {
     width: 150px;
@@ -269,6 +270,7 @@ footer .rodape .rodape-img {
     margin-right: 25px;
     background-color: #646cc9;
     border-radius: 20px;
+    padding: 10px;
 }
 footer .rodape p {
     display: inline-block;
