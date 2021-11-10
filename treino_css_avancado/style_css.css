@@ -1,0 +1,19 @@
+p::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+li{
+    list-style: none;
+}
+
+li::after{
+    content: "A";
+    color: blue;
+    font-size: 40px;
+
+}
+p::selection{
+    color: red;
+    background-color: orange;
+}
