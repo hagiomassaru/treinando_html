@@ -1,0 +1,6 @@
+input:focus{
+    color: red;
+}
+li:first-of-type{
+    color: blue;
+}
