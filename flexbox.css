@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: darkgray;
+
+}
+.rc1{
+    background-color: green;
+}
+.rc2{
+    background-color: blue;
+}
+.rc3{
+    background-color: brown;
+}
+.rc4{
+    background-color: aqua;
+}

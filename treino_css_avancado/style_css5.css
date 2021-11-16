@@ -1,0 +1,23 @@
+:root{
+    --var-color: aqua;
+    --square: 200px;
+}
+
+.paragrafo3{
+    color: var(--var-color);
+    font-size: 24px;
+}
+.paragrafo4{
+    color: var(--var-color);
+    font-size: 14px;
+}
+.sqrt1{
+    width: var(--square);
+    height: var(--square);
+    background-color: green;
+}
+.sqrt2{
+    width: var(--square);
+    height: var(--square);
+    background-color: var(--var-color);
+}
